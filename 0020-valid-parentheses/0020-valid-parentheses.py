@@ -6,7 +6,7 @@ class Solution:
         # so space complexity = O(n)
         
         n = len(s)
-        if n&1 or n < 2:
+        if  n < 2:
             return False
         
         # odd length strings wont ever be balanced/valid
